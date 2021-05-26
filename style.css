@@ -1,0 +1,266 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: "poppins" sans-serif;
+        }
+        
+        .row {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+        }
+        
+        img {
+            width: 800px;
+            height: 900px;
+        }
+        
+        .col-1 {
+            width: 100%;
+        }
+        
+        .col-2 {
+            width: 100%;
+            display: block;
+            /* text-align: center;x */
+            margin-top: 80px;
+        }
+        
+        .title {
+            text-align: center;
+            font-size: 60px;
+            color: rgb(56, 52, 52);
+        }
+        
+        p {
+            text-align: center;
+            margin: 10px;
+            font-size: 30px;
+            color: rgb(37, 28, 28);
+        }
+        
+        span {
+            color: rgb(21, 50, 180);
+            font-size: 34px;
+            cursor: pointer;
+        }
+        
+        .gap {
+            margin: 10px;
+        }
+        
+        .input-field input,
+        textarea,
+        select {
+            margin-top: 30px;
+            height: 55px;
+            margin-left: 100px;
+        }
+        
+        input,
+        textarea,
+        select {
+            width: 65%;
+            background-color: #f0f0f0;
+            margin: 10px 0;
+            border-radius: 15px;
+            /* display: block; */
+            /* position: relative; */
+            text-align: center;
+            font-size: 25px;
+            display: block;
+        }
+        
+        select {
+            margin-left: 100px;
+        }
+        
+        label {
+            /* float: left; */
+            margin: 10px 0;
+            font-size: 25px;
+            display: block;
+            margin-left: 100px;
+            /* padding-left: 30px; */
+        }
+        
+        .input-field input,
+        text,
+        select {
+            outline: none;
+            border: none;
+            line-height: 1;
+            font-weight: 600;
+            font-size: 25PX;
+            color: #333;
+            display: block;
+            text-align: center;
+        }
+        
+        textarea {
+            margin-left: 100px;
+            border-radius: 0px;
+            height: 100px;
+        }
+        
+         :placeholder-shown {
+            text-align: center;
+        }
+        
+        .btn {
+            width: 150px;
+            background-color: #5995fd;
+            border: none;
+            outline: none;
+            height: 49px;
+            border-radius: 49px;
+            color: #fff;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: 0.5s;
+            margin-left: 300px;
+            margin-top: 50px;
+        }
+        
+        .btn:hover {
+            background-color: #4d84e2;
+        }
+        
+        @media (max-width: 1270px) {
+            img {
+                width: 100%;
+                height: auto;
+            }
+            .col-2 {
+                width: 100%;
+                margin-top: 50px;
+            }
+            .input-field input {
+                font-size: 20px;
+            }
+        }
+        
+        @media (max-width: 900px) {
+            .col-1 {
+                display: none;
+            }
+            .col-2 {
+                width: 100%;
+                margin-top: 5 0px;
+            }
+            p {
+                font-size: 4vw;
+            }
+            .gap {
+                margin: 5px;
+                float: left;
+            }
+            .title {
+                font-size: 5vw;
+            }
+            span {
+                font-size: 4.3vw;
+            }
+            .input-field input {
+                font-size: 20px;
+            }
+            .btn {
+                margin-left: 100px;
+                height: 35px;
+                font-size: 15px;
+            }
+        }
+        
+        @media (max-width: 500px) {
+            .col-1 {
+                display: none;
+            }
+            .col-2 {
+                width: 100%;
+                margin-top: 50px;
+            }
+            input {
+                width: 65%;
+            }
+            p {
+                font-size: 7vw;
+            }
+            .gap {
+                margin: 5px;
+            }
+            .title {
+                font-size: 8.5vw;
+            }
+            span {
+                font-size: 6.5vw;
+            }
+            .btn {
+                margin-left: 100px;
+                height: 35px;
+                font-size: 15px;
+            }
+            label {
+                float: none;
+                font-size: 5vw;
+                margin-left: 10px;
+            }
+            .input-field input,
+            select,
+            textarea {
+                margin-top: 30px;
+                height: 35px;
+                font-size: 15px;
+                margin-left: 15px;
+            }
+        }
+        
+        @media (max-width: 320px) {
+            * {
+                box-sizing: none;
+            }
+            .col-1 {
+                display: none;
+            }
+            .col-2 {
+                width: 100%;
+                margin-top: 60px;
+            }
+            p {
+                font-size: 7vw;
+            }
+            input {
+                width: 65%;
+                margin-left: 0px;
+            }
+            .gap {
+                margin: 5px;
+            }
+            .title {
+                font-size: 8.5vw;
+            }
+            span {
+                font-size: 6.5vw;
+            }
+            .btn {
+                margin-left: 40px;
+                height: 35px;
+                font-size: 15px;
+            }
+            label {
+                float: none;
+                font-size: 5vw;
+                margin-left: 10px;
+            }
+            .input-field input,
+            select,
+            textarea {
+                margin-top: 30px;
+                height: 30px;
+                font-size: 10px;
+                margin-left: 15px;
+            }
+        }
